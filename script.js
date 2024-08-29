@@ -1,59 +1,59 @@
-// //homework 1-1
-// const computers = [
-//     {
-//       title: "Macbook Air M1",
-//       price: 85000,
-//     },
-//     {
-//       title: "Dell",
-//       price: 65000,
-//     },
-//     {
-//       title: "Asus ZenBook",
-//       price: 40000,
-//     },
-//     {
-//       title: "Acer Aspire",
-//       price: 45000,
-//     },
-//     {
-//       title: "Macbook Pro",
-//       price: 100000,
-//     },
-//   ];
+//homework 1-1
+const computers = [
+    {
+      title: "Macbook Air M1",
+      price: 85000,
+    },
+    {
+      title: "Dell",
+      price: 65000,
+    },
+    {
+      title: "Asus ZenBook",
+      price: 40000,
+    },
+    {
+      title: "Acer Aspire",
+      price: 45000,
+    },
+    {
+      title: "Macbook Pro",
+      price: 100000,
+    },
+  ];
   
-//   const descending = computers.sort((a, b) => b.price - a.price);
-//   console.log(" по убыванию:");
-//   console.log(descending);
+  const descending = computers.sort((a, b) => b.price - a.price);
+  console.log(" по убыванию:");
+  console.log(descending);
   
-//   //homework 1-2
+  //homework 1-2
   
-//   const computers1 = [
-//     {
-//       title: "Macbook Air M1",
-//       price: 85000,
-//     },
-//     {
-//       title: "Dell",
-//       price: 65000,
-//     },
-//     {
-//       title: "Asus ZenBook",
-//       price: 40000,
-//     },
-//     {
-//       title: "Acer Aspire",
-//       price: 45000,
-//     },
-//     {
-//       title: "Macbook Pro",
-//       price: 100000,
-//     },
-//   ];
+  const computers1 = [
+    {
+      title: "Macbook Air M1",
+      price: 85000,
+    },
+    {
+      title: "Dell",
+      price: 65000,
+    },
+    {
+      title: "Asus ZenBook",
+      price: 40000,
+    },
+    {
+      title: "Acer Aspire",
+      price: 45000,
+    },
+    {
+      title: "Macbook Pro",
+      price: 100000,
+    },
+  ];
   
-//   const ascending = computers1.sort((a, b) => a.price - b.price);
-//   console.log(" по возрастанию:");
-//   console.log(ascending);
+  const ascending = computers1.sort((a, b) => a.price - b.price);
+  console.log(" по возрастанию:");
+  console.log(ascending);
   
   //homework 2
   
